@@ -1,0 +1,17 @@
+RewriteEngine on
+
+RewriteCond %(REQUEST_FILENAME) !-d
+RewriteCond %(REQUEST_FILENAME)\.php -f
+RewriteRule ^index/ index.php
+
+RewriteCond %(REQUEST_FILENAME) !-d
+RewriteCond %(REQUEST_FILENAME)\.php -f
+RewriteRule ^login/ login.php
+
+RewriteCond %(REQUEST_FILENAME) !-d
+RewriteCond %(REQUEST_FILENAME)\.php -f
+RewriteRule ^register/ register.php
+
+RewriteCond %(REQUEST_FILENAME) !-d
+RewriteCond %(REQUEST_FILENAME)\.php -f
+RewriteRule ^change_password/ change_password.php

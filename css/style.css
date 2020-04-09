@@ -1,0 +1,11 @@
+.overrideheight{
+    height: 50px;
+}
+
+.dropdown-menu {
+  min-width: 200% !important;
+}
+
+typeahead-container {
+  width: 200% !important;
+}
